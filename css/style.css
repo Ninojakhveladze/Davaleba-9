@@ -14,7 +14,7 @@ body {
 .container-wrapper {
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
     width: 100%;
     max-width: 1280px;
@@ -26,12 +26,13 @@ body {
     display: flex;
 }
 .navigation-li {
-    margin-right: 15px;
+    margin-right: 50px;
 }
 .link-color {
     color: white;
 }
 .landings-text {
+    margin-left: 50px;
     font-size: 28px;
     color: white;
 }
