@@ -1,3 +1,7 @@
+body {
+    height: 1800px;
+}
+
 .bg-section {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -31,6 +35,7 @@
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    text-transform: uppercase;
 }
 .title p {
     font-size: 100px;
@@ -76,4 +81,40 @@
 }
 .title-text-button {
     margin-top: 170px;
+}
+.txt-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-with-button {
+    width: 50%;
+}
+.image {
+    width: 50%;
+}
+.image-size {
+    width: 100%;
+}
+.first-text p {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
+}
+.first-text {
+    width: 468px;
+}
+.second-text {
+    width: 457px;
+    padding-top: 32px;
+}
+.second-text p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.button-class {
+        border-radius: 36px;
+        width: 307px;
+        height: 71px;
+        background-color: #325DFF;
 }
