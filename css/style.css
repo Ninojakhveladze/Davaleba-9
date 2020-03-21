@@ -1,7 +1,6 @@
 body {
-    height: 1800px;
+    height: 1900px;
 }
-
 .bg-section {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -86,35 +85,37 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 600px;
 }
-.text-with-button {
+.first-block {
+    display: inline-block;
     width: 50%;
 }
-.image {
+.second-block {
     width: 50%;
+    display: inline-block;
 }
-.image-size {
+.second-block img {
     width: 100%;
-}
-.first-text p {
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-    line-height: 60px;
+    height: 100%;
 }
 .first-text {
     width: 468px;
+}
+.first-text1 p {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
 }
 .second-text {
     width: 457px;
     padding-top: 32px;
 }
-.second-text p {
+.second-text2 p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
-.button-class {
-        border-radius: 36px;
-        width: 307px;
-        height: 71px;
-        background-color: #325DFF;
+.text-with-button {
+    padding: 16%;
 }
+
