@@ -1,6 +1,4 @@
-body {
-    height: 1900px;
-}
+/*first section*/
 .bg-section {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -85,8 +83,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 600px;
 }
+/*second section*/
 .first-block {
     display: inline-block;
     width: 50%;
@@ -116,6 +114,125 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .text-with-button {
-    padding: 16%;
+    padding: 18%;
 }
+/*third section*/
+.box-container {
+    width: 100%;
+    height: 1147px;
+    background-color: #FAFAFA;
+    padding: 77px 55px;
+}
+.container {
+    width: 100%;
+    height: 965px;
+    background-color: #FAFAFA;
+}
+.box-container-title {
+    display: flex;
+    justify-content: center;
+}
+.box-container-title p {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+.box-container-descriprion {
+    width: 771px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.box-container-descriprion p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+/*third section small boxes*/
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.small-box {
+    margin-top: 27px;
+    width: 369px;
+    height: 372px;
+    background-color: white;
+    flex-direction: column;
+}
+.icon {
+    background-color:  #325DFF;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 30px;
+}
+.small-box-title p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.small-box-description {
+    margin-top: 25px;
+    width: 251px;
+}
+.small-box-description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16;
+    text-align: center;
+} 
+.box-wrapper-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/*fourth-section*/
+.section-four-bg {
+    background-image: url('../images/secondimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 687px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.case-studies-title p {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.case-studios-description {
+    margin-top: 17px;
+}
+.description-case {
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 771px;
+    display: block;
+    text-align: center;
+}
+/*section-five*/
+.section-five {
+    margin-top: 85px;
+    width: 100%;
+}
+.txt-img-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 96px;
+}
+/*footer*/
+.blue-footer {
+    background-color: #325DFF;
+    height: 140px;
+}
+.blue-footer p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
